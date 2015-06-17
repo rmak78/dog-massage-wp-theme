@@ -68,5 +68,23 @@ function custom_theme_features()  {
 // Hook into the 'after_setup_theme' action
 add_action( 'after_setup_theme', 'custom_theme_features' );
  
+if ( ! function_exists( 'sidebar' ) ) {
 
+// Register Sidebar
+function sidebar() {
+
+	$args = array(
+		'id'            => 'right_sidebar',
+		'name'          => __( 'Right Sidebar', 'sutlej' ),
+		'description'   => __( 'Sidebar on Right', 'sutlej' ),
+		'class'         => 'widget',
+	);
+	register_sidebar( $args );
+
+}
+
+// Hook into the 'widgets_init' action
+add_action( 'widgets_init', 'sidebar' );
+
+}
 ?>
