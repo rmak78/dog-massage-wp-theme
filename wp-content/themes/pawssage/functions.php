@@ -3,6 +3,7 @@
 function custom_navigation_menus() {
 
 	$locations = array(
+		'header', 'sidebar','footer'
 	);
 	register_nav_menus( $locations );
 
