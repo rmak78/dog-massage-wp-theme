@@ -67,7 +67,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c069', end
 .orange-bar p span.yellow { color:#fff600; font-size:inherit}
 .orange-bar p span.grey { color:#3c3e3d; font-size: inherit}
 
-.main-content { display:block; background:url(images/main-content-bg_04.png) no-repeat center bottom; padding:20px 0 84px}
+.main-content { display:block; background:url(images/main-content-bg_04.png) no-repeat center bottom; padding:20px 0 84px;
+background-size: 100%;}
 
 .main-content h2 { font-family: "Comic Sans MS", cursive}
 
@@ -78,7 +79,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c069', end
 .box img { max-width: 100%; height:auto}
 
 .carousel-content {
-   background:url(images/Pawssage-top-bottom_02.png) no-repeat center top; display:block; padding:13px 0px; font-family:"Comic Sans MS", cursive
+   background:url(images/Pawssage-top-bottom_02.png) no-repeat center top; display:block; padding:13px 0px; font-family:"Comic Sans MS", cursive;
+   background-size: 100%;
 }
 
 .carousel-content h1 { color:#fc9b03; text-align: center; margin:0px 0 8px; font-size:26pt}
