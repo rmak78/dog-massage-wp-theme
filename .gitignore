@@ -1,6 +1,7 @@
 *.clpprj
 *.bak
 *.log
+*tmp.html
 .htaccess
 sitemap.xml
 sitemap.xml.gz
