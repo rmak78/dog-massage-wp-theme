@@ -12,8 +12,8 @@
 <?php
 
 $defaults = array(
-	'theme_location'  => '',
-	'menu'            => '',
+	'theme_location'  => 'header',
+	'menu'            => 'main-menu',
 	'container'       => false,
 	'menu_class'      => 'nav navbar-nav top_ul',
 	'menu_id'         => 'topmenu',
