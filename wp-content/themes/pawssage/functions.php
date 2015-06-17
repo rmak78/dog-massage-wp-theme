@@ -61,8 +61,7 @@ function custom_theme_features()  {
 	// Add theme support for document Title tag
 	add_theme_support( 'title-tag' );
 
-	// Add theme support for custom CSS in the TinyMCE visual editor
-	add_editor_style();
+ 
 }
 
 // Hook into the 'after_setup_theme' action
