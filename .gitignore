@@ -1,3 +1,5 @@
+*.clpprj
+*.bak
 *.log
 .htaccess
 sitemap.xml
