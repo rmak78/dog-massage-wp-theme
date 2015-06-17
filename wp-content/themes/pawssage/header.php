@@ -89,19 +89,9 @@
                 <a href="#" class="msg-btn">Book a Massage</a>
                </div> 
              </div>
-            <div class="row">
- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            
-            
-            <div id="navbar" class="navbar-collapse collapse">
-              <?php include (TEMPLATEPATH . '/top_nav.php'); ?>
-             </div> 
-            </div> 
+			 <!-- Top Navigation -->
+			<?php get_template_part( 'nav', 'top' ); ?>
+			<!-- ./ Top Navigation -->
             </div><!--md-7--> 
            <div class="col-md-2 col-sm-2 col-xs-3 center mm">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-img_02.png">
@@ -109,107 +99,9 @@
             
       </div>
     </div>
-<!-- carousel starts  -->    
-<div class="carousel-content">       
-  <div class="container"> 
-    <h1>Click on our faces!</h1> 
-      <p>we’re some of the canines that have benefited from the wonderful massage treatment by Pawssage!</p>     
-          <div id="owl-carousel" class="owl-carousel">
-			  <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage1.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div> 
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage2.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage3.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage4.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage5.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage1.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage2.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage3.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div> 
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage4.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div> 
-                
-                <div class="item">
-                  <div class="custom">
-                    <a href="#"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Pawssage5.png"></a>
-                     <div class="eclipse">
-                       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hover_03.png"></a>
-                     </div>
-                  </div>
-                </div> 
-                
-         </div> <!--carousel-->     
-	 </div><!--container --> 
-  </div><!--carousel-content-->         
-<!-- carousel ends  -->  	
- 
+			<!-- Dog Faces Slider -->
+			<?php get_template_part( 'slider', 'main' ); ?>
+		 <!-- ./Dog Faces Slider -->
 <div class="orange-bar">
   <div class="container">
     <p><span>Believe it or not:</span> UCD Professor finds <span class="yellow">sleeping</span> with your dog can be        <span class="grey">hazardous to your health.</span></p>
