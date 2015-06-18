@@ -8,7 +8,7 @@
  */
 ?>
          <div class="col-md-3 right">
-           <div class="widget">
+           <div class="sidebar">
 
 		  <?php if(is_active_sidebar('right_sidebar')) : ?>
 		  <ul>
@@ -16,5 +16,5 @@
 		  </ul>
 		  <?php endif; ?>
 		  
-		     </div> <!--widget--> 
+		     </div> <!--sidebar--> 
           </div> <!--col-md-3-->

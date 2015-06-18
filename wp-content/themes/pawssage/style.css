@@ -67,8 +67,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c069', end
 .orange-bar p span.yellow { color:#fff600; font-size:inherit}
 .orange-bar p span.grey { color:#3c3e3d; font-size: inherit}
 
-.main-content { display:block; background:url(images/main-content-bg_04.png) no-repeat center bottom; padding:20px 0 84px;
-background-size: 100%;}
+.main-content { 
+	display:block; 
+	background:url(images/main-content-bg_04.png) no-repeat center bottom; 
+	padding: 20px 0px 84px;
+	line-height: 1.75em;
+	letter-spacing: 0.05em;
+	font-family:'Open Sans', veranda, Arial, serifs;
+	font-size: 14px;
+	}
 
 .main-content h2 { font-family: "Comic Sans MS", cursive}
 
@@ -87,18 +94,38 @@ background-size: 100%;}
 
 .carousel-content p { color:#222222; text-align: center; margin:0px 0 7px; font-size:13pt; clear:both}
 
-.widget { border:1px solid#dcddde; box-shadow:-3px 3px 0px#eeeeee; -webkit-box-shadow:-3px 3px 0px#eeeeee; -moz-box-shadow:-3px 3px 0px#eeeeee; -o-box-shadow:-3px 3px 0px#eeeeee; -ms-box-shadow:-3px 3px 0px#eeeeee; }
+.sidebar  { border:1px solid#dcddde; box-shadow:-3px 3px 0px#eeeeee; -webkit-box-shadow:-3px 3px 0px#eeeeee; -moz-box-shadow:-3px 3px 0px#eeeeee; -o-box-shadow:-3px 3px 0px#eeeeee; -ms-box-shadow:-3px 3px 0px#eeeeee; }
 
-.widget-header {padding:23px 0 23px 13px;border-bottom:1px solid#fdcd9d;}
-.widget-header h3 {color:#777777; text-align:left; font-size:17px; font-family:"Comic Sans MS", cursive; font-weight: bold; margin: 0  }
+.sidebar ul {
+	 list-style-type: none;
+	 padding: 10px 5px; 
+}
 
-.widget-content { padding:0 13px}
+h2.widgettitle {
+	border-top:1px solid#fdcd9d;
+	padding:15px 0 15px 5px;
+	border-bottom:1px solid#fdcd9d;
+	}
+h2.widgettitle  {
+	color:#777777; 
+	text-align:left; 
+	font-size:16px; 
+	font-family:"Comic Sans MS", cursive; 
+	font-weight: bold; 
+	margin: 2px 0px 10px 0px;
+	text-align:center;
+	}
 
-widget-content ul { display:block; float:left; margin:0px; padding:0px}
+.sidebar > ul > div { 
+	padding:0 13px;
+	
+	}
 
-.widget-content li { padding:17px 0px; border-bottom:1px dashed #eee; display:block;color: #656565;font-size: 14px;  margin: 0; text-align: left;} 
+.sidebar > ul > div ul { display:block; float:left; margin:0px; padding:0px}
 
-.widget-content li:last-child { border-bottom: none }
+.sidebar > ul > div ul li { padding:17px 0px; border-top:1px dashed #eee; border-bottom:1px dashed #eee; display:block;color: #656565;font-size: 14px;  margin: 0; text-align: left;} 
+
+.sidebar > ul > div ul li:last-child { border-bottom: none }
 
 .orange-text { color:#fc9b03}
 
