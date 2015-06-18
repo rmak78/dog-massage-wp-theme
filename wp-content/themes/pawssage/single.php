@@ -28,7 +28,7 @@
 		</div>
 	  </div><!--main content top-->		
 
-		</div>
+ 
 		  <div class="main-content-lower">
                     <div class="row">
                      <div class="col-md-8 col-sm-8">
@@ -37,6 +37,7 @@
 <?php endwhile; else : ?>
 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
+                    
                      </div><!--col-md-8-->
                           
                     </div> <!--row--> 
