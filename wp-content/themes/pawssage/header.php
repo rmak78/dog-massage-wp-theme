@@ -100,7 +100,10 @@
       </div>
     </div>
 			<!-- Dog Faces Slider -->
-			<?php get_template_part( 'slider', 'main' ); ?>
+			<?php if (is_home())
+			{
+				get_template_part( 'slider', 'main' );
+			}  ?>
 		 <!-- ./Dog Faces Slider -->
 <div class="orange-bar">
   <div class="container">
