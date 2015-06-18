@@ -33,7 +33,7 @@ function custom_theme_features()  {
 	// Add theme support for document Title tag
 	add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
- 
+
 }
 
 // Hook into the 'after_setup_theme' action

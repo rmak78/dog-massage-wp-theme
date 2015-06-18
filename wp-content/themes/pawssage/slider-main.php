@@ -11,7 +11,6 @@
 		  
 		  
 		       <?php
-
 				$args = array('category_name' => 'DogFaces');
 				$posts = get_posts($args);
 				foreach($posts as $post){ ?>	
