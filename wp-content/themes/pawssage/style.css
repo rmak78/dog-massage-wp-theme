@@ -157,3 +157,36 @@ div.entry>p>img {
     border-radius: 2px;
     box-shadow: 0px 0px 4px #999;
 }
+/* SUB Menu */
+ul.sub-menu {
+  list-style-type: none;
+  background-color: rgba(255,255,255,0.9);
+  display: none;
+  min-width: 160px;
+  /*padding: 1px 10px 8px; */
+  padding-left: 0px;
+  }
+ul#topmenu>li.menu-item:hover ul {
+  display: block;
+  position: absolute;
+}
+ul.sub-menu>li>a {
+  color: #777;
+ white-space: nowrap;
+}
+ul.sub-menu>li>a {
+  color: #777;
+  padding: 0px 5px;
+}
+ul.sub-menu > li {
+    padding: 6px 0;
+}
+ul.sub-menu>li:hover {
+  background-color: #FFF;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:active {
+  color: #F4AE40;
+}
+ul.sub-menu>li>a:hover,ul.sub-menu>li>a:active {
+ color: #F4AE40;
+}
