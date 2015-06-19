@@ -148,4 +148,12 @@ footer ul li:last-child a { border-right: none }
 /* Custom CSS */
 
 div.widget > ul{ list-style-type: none; }
-
+div.entry>p>img {
+    vertical-align: middle;
+    float: right;
+    height: auto;
+    max-width: 278px;
+    padding: 9px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px #999;
+}
