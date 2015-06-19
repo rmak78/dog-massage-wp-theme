@@ -210,3 +210,12 @@ div.custom > a:nth-child(1) > img {
     height: 173px;
     width: 173px;
 }
+/* CSS for comments */
+footer.comment-meta {
+    background-color: #F9F9F9;
+}
+article.comment-body {
+  background-color: rgba(210, 210, 210, 0.08);
+  border-left: solid 1px #CCC;
+  border-top: solid 1px #CCC;
+}

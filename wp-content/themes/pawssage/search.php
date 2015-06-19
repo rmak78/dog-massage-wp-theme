@@ -1,5 +1,10 @@
 <?php get_header(); ?>
-
+<div class="main-content">
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="main-content-top">
 	<?php if (have_posts()) : ?>
 
 		<h2>Search Results</h2>
@@ -30,6 +35,17 @@
 
 	<?php endif; ?>
 
-<?php get_sidebar(); ?>
+
+                   </div><!--main content lower-->         
+                      
+
+        </div><!--col-md-9-->
+        
+ <?php get_sidebar(); ?>
+ 
+      </div><!--row contains whole main content-->
+    </div><!--col-md-12 placed to adjust the row margin-->
+  </div><!--container-->
+</div><!--main content--> 
 
 <?php get_footer(); ?>

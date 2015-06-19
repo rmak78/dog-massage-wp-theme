@@ -62,18 +62,24 @@
 
 		<?php else : ?>
 
-			<div>
-				<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
+			<div class="form-group">
+				<div class="col-md-6">
+				<input class="form-control" type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
+				</div>
 				<label for="author">Name <?php if ($req) echo "(required)"; ?></label>
 			</div>
 
-			<div>
-				<input type="text" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
-				<label for="email">Mail (will not be published) <?php if ($req) echo "(required)"; ?></label>
+			<div class="form-group">
+				<div class="col-md-6">
+				<input type="text" class="form-control" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
+				</div>
+				<label for="email">Email<?php if ($req) echo "(required)"; ?></label>
 			</div>
 
-			<div>
-				<input type="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="22" tabindex="3" />
+			<div class="form-group">
+				<div class="col-md-6">
+				<input type="text" class="form-control" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="22" tabindex="3" />
+				</div>
 				<label for="url">Website</label>
 			</div>
 
@@ -81,13 +87,19 @@
 
 		<!--<p>You can use these tags: <code><?php echo allowed_tags(); ?></code></p>-->
 
-		<div>
-			<textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea>
+		<div class="form-group">
+				<div class="col-md-6">
+			<textarea name="comment" id="comment" class="form-control"></textarea>
+			</div>
+				<label>Comments</label>
 		</div>
-
-		<div>
-			<input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
-			<?php comment_id_fields(); ?>
+		<BR/>
+		<div class="form-group">
+			<div class="col-md-8">
+			<input name="submit" type="submit" id="submit" class="btn btn-info pull-left" tabindex="5" value="Submit Comment" />
+			</div>
+			<label><?php comment_id_fields(); ?>
+			</label>
 		</div>
 		
 		<?php do_action('comment_form', $post->ID); ?>
