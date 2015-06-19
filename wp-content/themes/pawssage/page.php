@@ -11,7 +11,7 @@
 
 			
 
-			<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+			<?php //include (TEMPLATEPATH . '/inc/meta.php' ); ?>
 
 			<div class="entry">
 

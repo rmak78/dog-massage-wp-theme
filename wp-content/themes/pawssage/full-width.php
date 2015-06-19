@@ -8,7 +8,7 @@ Template Name: Full Width
   <div class="container">
     <div class="col-md-12">
       <div class="row">
-       
+  
           <div class="main-content-top">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
@@ -37,12 +37,12 @@ Template Name: Full Width
 		<?php endwhile; endif; ?>
 
           
+                             </div><!--col-md-8-->
                           
                     </div> <!--row--> 
                    </div><!--main content lower-->         
                       
 
-        </div><!--col-md-9-->
  
  
       </div><!--row contains whole main content-->

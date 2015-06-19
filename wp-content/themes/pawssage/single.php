@@ -11,8 +11,8 @@
 			
 			<h2><?php the_title(); ?></h2>
 			
-			<?php //include (TEMPLATEPATH . '/inc/meta.php' ); ?>
-
+			<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+					<span>Categories<?php the_category($post_id); ?></span>
 			<div class="entry">
 				
 				<?php the_content(); ?>
