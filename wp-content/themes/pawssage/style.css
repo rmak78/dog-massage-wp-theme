@@ -203,3 +203,10 @@ ul.sub-menu>li>a:hover,ul.sub-menu>li>a:active {
 	}
 
 } 
+
+/* SET width and height for slider images */
+
+div.custom > a:nth-child(1) > img {
+    height: 173px;
+    width: 173px;
+}
