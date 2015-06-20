@@ -34,7 +34,7 @@
 		<!-- If comments are open, but there are no comments. -->
 
 	 <?php else : // comments are closed ?>
-		<p>Comments are closed.</p>
+		<p>&nbsp;</p>
 
 	<?php endif; ?>
 	
@@ -61,7 +61,7 @@
 			<p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
 
 		<?php else : ?>
-
+		
 			<div class="form-group">
 				<div class="col-md-6">
 				<input class="form-control" type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
@@ -87,19 +87,19 @@
 
 		<!--<p>You can use these tags: <code><?php echo allowed_tags(); ?></code></p>-->
 
-		<div class="form-group">
-				<div class="col-md-6">
-			<textarea name="comment" id="comment" class="form-control"></textarea>
+		<div class="form-group" >
+				<div class="col-md-10">
+			<textarea rows="2" cols="50" name="comment" id="comment" class="form-control"></textarea>
 			</div>
-				<label>Comments</label>
+				<label></label>
 		</div>
 		<BR/>
-		<div class="form-group">
+		<div class="form-group" style="padding-top: 15px;">
 			<div class="col-md-8">
 			<input name="submit" type="submit" id="submit" class="btn btn-info pull-left" tabindex="5" value="Submit Comment" />
 			</div>
-			<label><?php comment_id_fields(); ?>
-			</label>
+			<label></label><?php comment_id_fields(); ?>
+			
 		</div>
 		
 		<?php do_action('comment_form', $post->ID); ?>
