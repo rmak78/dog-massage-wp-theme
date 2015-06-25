@@ -11,8 +11,8 @@
 			
 			<h2><?php the_title(); ?></h2>
 			
-			<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
-					<span>Categories<?php the_category($post_id); ?></span>
+			<?php // include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+				<!--	<span>Categories<?php // the_category($post_id); ?></span> -->
 			<div class="entry">
 				
 				<?php the_content(); ?>
@@ -31,7 +31,7 @@
  
 		  <div class="main-content-lower">
                     <div class="row">
-                     <div class="col-md-8 col-sm-8">
+                     <div class="col-md-12 col-sm-12">
 	<?php comments_template(); ?>
 
 <?php endwhile; else : ?>

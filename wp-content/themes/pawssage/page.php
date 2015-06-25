@@ -27,7 +27,7 @@
 		  <div class="main-content-lower">
                     <div class="row">
                      <div class="col-md-8 col-sm-8">
-		<?php  comments_template(); ?>
+		<?php  // comments_template(); ?>
 
 		<?php endwhile; endif; ?>
 

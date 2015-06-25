@@ -4,9 +4,28 @@ Theme URI: http://pawssage.com
 Description: Pawssage custom theme is developed by: Team Sutlej Solution
 Author: Team Sutlej
 Author URI: http://sutlej.net
-Version: 1 */
+Version: 1.0 */
 
+h1, h2, h3, h4, h5, h6{
+font-family: "Comic Sans MS", cursive;
+color:#fc9b03; 
+text-align: center;
+}
+h1{
+font-size: 26pt;
+}
+h2{
+font-size: 27px;
+}
+h3{
 
+}
+h4{
+}
+h5{
+}
+h6{
+}
 @charset "utf-8";
 /* CSS Document */
 
@@ -152,10 +171,11 @@ div.entry>p>img {
     vertical-align: middle;
     float: right;
     height: auto;
-    max-width: 278px;
+    width: 278px;
     padding: 9px;
     border-radius: 2px;
     box-shadow: 0px 0px 4px #999;
+    max-width: 100%;
 }
 /* SUB Menu */
 
@@ -210,12 +230,18 @@ div.custom > a:nth-child(1) > img {
     height: 173px;
     width: 173px;
 }
+/* sidebar widgets text */
+li.widget {
+    padding-bottom: 15px;
+}
 /* CSS for comments */
 footer.comment-meta {
-    background-color: #F9F9F9;
+    background-color: #FFF;
 }
 article.comment-body {
   background-color: rgba(210, 210, 210, 0.08);
-  border-left: solid 1px #CCC;
-  border-top: solid 1px #CCC;
+}
+#wp-calendar {
+    margin: 0 auto;
+    width: 100%;
 }
