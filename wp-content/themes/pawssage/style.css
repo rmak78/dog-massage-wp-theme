@@ -94,6 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c069', end
 	letter-spacing: 0.05em;
 	font-family:'Open Sans', veranda, Arial, serifs;
 	font-size: 14px;
+	background-size: 100%;
 	}
 
 .main-content h2 { font-family: "Comic Sans MS", cursive}
