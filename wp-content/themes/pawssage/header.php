@@ -76,17 +76,17 @@
       <div class="container">
             <div class="col-md-3 col-sm-3 col-xs-4 center">
             <div class="navbar-header">
-             <a class="navbar-brand" href="index.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/11.png"></a>
+             <a class="navbar-brand" href=<?php echo get_site_url(); ?>><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/11.png"></a>
             </div>
             </div><!--md-3-->
             
             <div class="col-md-7 col-sm-7 col-xs-12">
              <div class="row margin-top">
                <div class="col-md-9 col-sm-9 col-xs-8">
-                <h1>(209) 986 3516</h1>
+                <h1><a style="color: rgb(255, 255, 255);" href="tel:209 986 3516">(209) 986 3516</a></h1>
                </div>
                <div class="col-md-3 col-sm-3 col-xs-4 top">
-                <a href="#" class="msg-btn">Book a Massage</a>
+                <a href="<?php echo get_site_url(); ?>/booking" class="msg-btn">Book a Massage</a>
                </div> 
              </div>
 			 <!-- Top Navigation -->
