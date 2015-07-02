@@ -377,3 +377,19 @@ div.bread-crumb h2{
     margin-right: auto;
     text-align: center;
 }
+.msg-btn {
+    margin-left: -12px;
+}
+
+ol.faq h3 {
+    color: black;
+    font-family: unset;
+}
+ul.ttl > li > a {
+    border-right: 0px;
+}
+@media screen and (max-width: 675px) {
+    div#post-meta {
+       width: 100% !important;
+    }
+}

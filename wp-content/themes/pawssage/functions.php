@@ -145,4 +145,5 @@ if( function_exists('vc_set_as_theme') ) { vc_set_as_theme( true ); }
 include TEMPLATEPATH . '/functions/shortcodes/case_study_block.php';
 include TEMPLATEPATH . '/functions/shortcodes/testimonial.php';
 include TEMPLATEPATH . '/functions/shortcodes/cta_box.php';
+
 ?>
