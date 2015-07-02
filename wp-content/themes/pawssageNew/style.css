@@ -1,0 +1,424 @@
+   
+/* Theme Name: Pawssage Custom Theme
+Theme URI: http://pawssage.com
+Description: Pawssage custom theme is developed by: Team Sutlej Solution
+Author: Team Sutlej
+Author URI: http://sutlej.net
+Version: 1.0 */
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
+font-family: "Comic Sans MS", cursive;
+color:#fc9b03; 
+/* text-align: center; */
+}
+h1{
+font-size: 26pt;
+}
+h2{
+font-size: 27px;
+}
+h3{
+
+}
+h4{
+}
+h5{
+}
+h6{
+}
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.head { background:url(images/Pawssage-top-bg_01.png) no-repeat scroll center center / cover  rgba(0, 0, 0, 0)}
+
+
+.msg-btn {
+    border: 1px solid #e5912b;
+    border-radius: 4px;
+    color: #fff;
+	display:block;
+	width:100%;
+    font-size: 11pt;
+    padding: 6px 5px;
+    text-align: center;
+	background: rgba(246,192,105,1);
+background: -moz-linear-gradient(left, rgba(246,192,105,1) 0%, rgba(249,207,145,1) 50%, rgba(246,192,104,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246,192,105,1)), color-stop(50%, rgba(249,207,145,1)), color-stop(100%, rgba(246,192,104,1)));
+background: -webkit-linear-gradient(left, rgba(246,192,105,1) 0%, rgba(249,207,145,1) 50%, rgba(246,192,104,1) 100%);
+background: -o-linear-gradient(left, rgba(246,192,105,1) 0%, rgba(249,207,145,1) 50%, rgba(246,192,104,1) 100%);
+background: -ms-linear-gradient(left, rgba(246,192,105,1) 0%, rgba(249,207,145,1) 50%, rgba(246,192,104,1) 100%);
+background: linear-gradient(to right, rgba(246,192,105,1) 0%, rgba(249,207,145,1) 50%, rgba(246,192,104,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c069', endColorstr='#f6c068', GradientType=1 );}
+.margin-top { margin:20px 0 0px 0px}
+.top { margin:2px 0 0}
+
+
+.custom {  overflow: hidden; padding:0px; float:left; position:relative; width: 174px; margin:0px auto 8px;  }
+
+.margin-left { margin-left:51px }
+
+.custom a { display:block; text-decoration: none}
+
+.custom a img { display:block; position:relative}
+
+.custom .eclipse {  display:none; width:47px; height:47px;  transition: all 0.6s ease; position:absolute;bottom: 53px; left: 63px }
+
+.custom:hover .eclipse { display:block; transition: all 0.6s ease }
+
+.first-padding { padding-left: 0px;}
+
+.orange-bar { background-color:#f4ae40; padding:11px 0px; border:1px solid#f4ae40; box-shadow:0 1px 1px #fff inset; display:block; -webkit-box-shadow:0 1px 1px #fff inset; -moz-box-shadow:0 1px 1px #fff inset; -o-box-shadow:0 1px 1px #fff inset; -ms-box-shadow:0 1px 1px #fff inset}
+
+.orange-bar p {  color:#f8f8f8; font-size:15px; text-align:center; margin:0 }
+.orange-bar span { color:#403e4b; font-size:19px;}
+.orange-bar p span.yellow { color:#fff600; font-size:inherit}
+.orange-bar p span.grey { color:#3c3e3d; font-size: inherit}
+
+.main-content { 
+	display:block; 
+	background:url(images/main-content-bg_04.png) no-repeat center bottom; 
+	padding: 20px 0px 84px;
+	line-height: 1.75em;
+	letter-spacing: 0.05em;
+	font-family:'Open Sans', veranda, Arial, serifs;
+	font-size: 14px;
+	background-size: 100%;
+	}
+
+.main-content h2 { font-family: "Comic Sans MS", cursive}
+
+.main-content-top, .main-content-lower { display:block  }
+
+.box { width:247px;padding: 4px; border-radius:2px;  box-shadow: 0 0 4px#999; -webkit-box-shadow: 0 0 4px#999; -moz-box-shadow: 0 0 4px#999; -o-box-shadow: 0 0 4px#999; -ms-box-shadow: 0 0 4px#999;}
+
+.box img { max-width: 100%; height:auto}
+
+.carousel-content {
+   background:url(images/Pawssage-top-bottom_02.png) no-repeat center top; display:block; padding:13px 0px; font-family:"Comic Sans MS", cursive;
+   background-size: 100%;
+}
+
+.carousel-content h1 { color:#fc9b03; text-align: center; margin:0px 0 8px; font-size:26pt}
+
+.carousel-content p { color:#222222; text-align: center; margin:0px 0 7px; font-size:13pt; clear:both}
+
+.sidebar  { border:1px solid#dcddde; box-shadow:-3px 3px 0px#eeeeee; -webkit-box-shadow:-3px 3px 0px#eeeeee; -moz-box-shadow:-3px 3px 0px#eeeeee; -o-box-shadow:-3px 3px 0px#eeeeee; -ms-box-shadow:-3px 3px 0px#eeeeee; }
+
+.sidebar ul {
+	 list-style-type: none;
+	 padding: 10px 5px; 
+}
+
+h2.widgettitle {
+	border-top:1px solid#fdcd9d;
+	padding:15px 0 15px 5px;
+	border-bottom:1px solid#fdcd9d;
+	}
+h2.widgettitle  {
+	color:#777777; 
+	text-align:left; 
+	font-size:16px; 
+	font-family:"Comic Sans MS", cursive; 
+	font-weight: bold; 
+	margin: 2px 0px 10px 0px;
+	text-align:center;
+	}
+
+.sidebar > ul > div { 
+	padding:0 13px;
+	
+	}
+
+.sidebar > ul > div ul { display:block; float:left; margin:0px; padding:0px}
+
+.sidebar > ul > div ul li { padding:17px 0px; border-top:1px dashed #eee; border-bottom:1px dashed #eee; display:block;color: #656565;font-size: 14px;  margin: 0; text-align: left;} 
+
+.sidebar > ul > div ul li:last-child { border-bottom: none }
+
+.orange-text { color:#fc9b03}
+
+.blue-text { color:#0778d5}
+
+.right { padding-right:0px; padding-left:0; top: 11px}
+.box-pad { padding-left: 0px; margin-top: 65px;}
+
+footer { background-color:#000; padding:15px 0px}
+
+footer p { color:#fff; padding-left:18px; font-size:12px} 
+
+footer ul { display:block;  margin:0; padding:0; float: right; }
+footer ul li { display:inline-block; float:left; margin:0px}
+footer ul li a { color:#f4ae40; font-size:13px; text-align:center; display:block; border-right: 1px solid#f4ae40; padding:0px 14px; line-height: 12px } 
+
+footer ul li:last-child a { border-right: none }
+
+/* Custom CSS */
+
+/* Sutlej Logo footer Start  */
+
+	.ttl { display:block; text-align:center; font:12px/16px 'ProximaNova-Bold', sans-serif; text-transform:uppercase; }
+.ttl img { vertical-align:middle; margin-top:-1px; }
+.w1-ttl {
+float: left;
+ }
+.ttl { font:12px/16px 'ProximaNova-Bold', sans-serif; text-transform:uppercase; }
+.ttl li { left:200%; position:relative; }
+ .ttl .logo { text-indent:-9999px; overflow:hidden; background:url("http://mypayapponline.com/wp-content/themes/accounting-pro/assets/images/ico_fog.png") no-repeat; width:51px; height:51px; cursor:pointer; margin:-17px 0 0; }
+.ttl .logo:hover { background-position:0 -51px; }
+/* Sutlej Logo footer End */
+
+div.widget > ul{ list-style-type: none; }
+div.entry>p>img,div.entry>p>a>img {
+    vertical-align: middle;
+    float: right;
+    height: auto;
+    width: 278px;
+    padding: 9px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px #999;
+    max-width: 100%;
+}
+/* SUB Menu */
+
+ul.sub-menu {
+  list-style-type: none;
+  background-color: rgba(255,255,255,0.9);
+  display: none;
+  min-width: 160px;
+  /*padding: 1px 10px 8px; */
+  padding-left: 0px;
+ z-index: 999;
+  }
+ul#topmenu>li.menu-item:hover ul {
+  display: block;
+  position: absolute;
+}
+ul.sub-menu>li>a {
+  color: #777;
+ white-space: nowrap;
+}
+ul.sub-menu>li>a {
+  color: #777;
+  padding: 0px 10px;
+}
+ul.sub-menu > li {
+    padding: 6px 0;
+}
+ul.sub-menu>li:hover {
+  background-color: #FFF;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:active {
+  color: #F4AE40;
+}
+ul.sub-menu>li>a:hover,ul.sub-menu>li>a:active {
+ color: #F4AE40;
+
+}
+
+/* Media query for sub menu */
+@media screen and (max-width: 767px){
+	ul.sub-menu {
+		list-style-type: none;
+		display: block;
+		min-width: 160px;
+		padding-left: 26px;
+	}
+
+} 
+
+/* SET width and height for slider images */
+
+div.custom > a:nth-child(1) > img {
+    height: 173px;
+    width: 173px;
+}
+/* sidebar widgets text */
+li.widget {
+    padding: 0px 7px 15px;
+}
+/* CSS for comments */
+footer.comment-meta {
+    background-color: #FFF;
+}
+article.comment-body {
+  background-color: rgba(210, 210, 210, 0.08);
+}
+#wp-calendar {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Font size for side bar */
+.sidebar {
+    font-size: 12px;
+}
+
+/* Font size for top nav*/
+.nav > li > a {
+    font-weight: bold;
+    font-size: 13px;
+}
+ul.sub-menu > li > a {
+    font-weight: bold;
+    font-size: 12px;
+}
+ul.sub-menu > li > a:hover {
+    padding-left: 15px;
+}
+
+div.bread-crumb{
+	border-bottom: 2px solid rgb(245, 245, 245);
+display: block;
+width: auto;
+
+position: relative;
+}
+div.bread-crumb h2{
+	padding-bottom: 10px;
+}
+
+/* Social Buttons */
+
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .fa-twitter {
+	color: #4099ff;
+}
+.icon-button .fa-facebook {
+	color: #3B5998;
+}
+.icon-button .fa-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-facebook,
+.icon-button:hover .fa-google-plus {
+	color: white;
+}
+#social-icons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.msg-btn {
+    margin-left: -12px;
+}
+
+ol.faq h3 {
+    color: black;
+    font-family: unset;
+}
+ul.ttl > li > a {
+    border-right: 0px;
+}
+@media screen and (max-width: 675px) {
+    div#post-meta {
+       width: 100% !important;
+    }
+}
+
+/* Footer widget  */
+#footer-widgets .widget ol ol {
+  margin-left: 1em;
+}
+#footer-widgets {
+  zoom: 1;
+  margin: 0 -5px;
+  max-width: 100%;
+}
+#footer-widgets:before {
+  content: '';
+  display: block;
+}
+#footer-widgets:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#footer-widgets .widget {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 0;
+  color: #b9b9b9;
+}
