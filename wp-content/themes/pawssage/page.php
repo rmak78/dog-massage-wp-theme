@@ -8,14 +8,9 @@
 		  <?php if ( is_home() || is_front_page() ) : ?>
 		  <?php else : ?>
 		  <div class="bread-crumb"><h2><?php echo get_the_title(); ?></h2></div>
-		<BR/>
 		<?php endif; ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
 		<div class="post" id="post-<?php the_ID(); ?>">
-
-			
-
 			<?php // include (TEMPLATEPATH . '/inc/meta.php' ); ?>
 
 			<div class="entry">

@@ -18,13 +18,16 @@ h2{
 font-size: 27px;
 }
 h3{
-
+font-size: 24px;
 }
 h4{
+font-size: 22px;
 }
 h5{
+font-size: 18px;
 }
 h6{
+font-size: 15px;
 }
 @charset "utf-8";
 /* CSS Document */
@@ -170,12 +173,10 @@ footer ul li:last-child a { border-right: none }
 
 	.ttl { display:block; text-align:center; font:12px/16px 'ProximaNova-Bold', sans-serif; text-transform:uppercase; }
 .ttl img { vertical-align:middle; margin-top:-1px; }
-.w1-ttl {
-float: left;
- }
+
 .ttl { font:12px/16px 'ProximaNova-Bold', sans-serif; text-transform:uppercase; }
-.ttl li { left:200%; position:relative; }
- .ttl .logo { text-indent:-9999px; overflow:hidden; background:url("http://mypayapponline.com/wp-content/themes/accounting-pro/assets/images/ico_fog.png") no-repeat; width:51px; height:51px; cursor:pointer; margin:-17px 0 0; }
+.ttl li { position:relative;}
+ .ttl .logo { text-indent:-9999px; background:url("http://mypayapponline.com/wp-content/themes/accounting-pro/assets/images/ico_fog.png") no-repeat; width:51px; height:51px; cursor:pointer; margin:-17px 0 0; }
 .ttl .logo:hover { background-position:0 -51px; }
 /* Sutlej Logo footer End */
 
@@ -189,6 +190,7 @@ div.entry>p>img,div.entry>p>a>img {
     border-radius: 2px;
     box-shadow: 0px 0px 4px #999;
     max-width: 100%;
+    margin: 6px;
 }
 /* SUB Menu */
 
@@ -279,14 +281,17 @@ ul.sub-menu > li > a:hover {
 }
 
 div.bread-crumb{
-	border-bottom: 2px solid rgb(245, 245, 245);
+	
 display: block;
 width: auto;
 
 position: relative;
 }
 div.bread-crumb h2{
-	padding-bottom: 10px;
+font-size: 20px;
+color: rgb(204, 204, 204);
+text-decoration: underline;
+text-decoration-color: #E7E7E7;
 }
 
 /* Social Buttons */
@@ -393,32 +398,14 @@ ul.ttl > li > a {
        width: 100% !important;
     }
 }
-
-/* Footer widget  */
-#footer-widgets .widget ol ol {
-  margin-left: 1em;
+/* Mobile Responsive */
+@media screen and (max-width: 993px) {
+    div#footer-menu {
+       width: 100% !important;
+    }
+#sutlej-brand {
+    width: 100% !important;
+    margin-left: -25%;
+    padding: 0 10px;
 }
-#footer-widgets {
-  zoom: 1;
-  margin: 0 -5px;
-  max-width: 100%;
-}
-#footer-widgets:before {
-  content: '';
-  display: block;
-}
-#footer-widgets:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-#footer-widgets .widget {
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
-  padding: 0 15px;
-  margin-bottom: 0;
-  color: #b9b9b9;
 }
